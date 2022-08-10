@@ -1,0 +1,29 @@
+.aside {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 296px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .aside-logo {
+    margin-bottom: 32px; }
+  .aside-link {
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    padding-top: 12px;
+    padding-bottom: 12px; }
+    .aside-link:hover.aside-link::before {
+      content: "";
+      position: absolute;
+      width: 4px;
+      height: 32px;
+      left: 0;
+      background: #198754; }
+
+/*# sourceMappingURL=layout.css.map */

@@ -1,10 +1,94 @@
----
-title: Admin
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Admin
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <main class="d-flex">
+    <div class="bg-light aside ps-3">
+      <div class="d-flex flex-column">
+        <a href="index.html" class="aside-logo">
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a42e625b3e98d0fe8ffa5f9f58096fb8326aa845/week5/logo-ANSWER.svg"
+            alt="">
+        </a>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link aside-link fw-bold text-dark link" href="#">
+              <span class="material-icons align-middle me-3">
+                assessment
+              </span>
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link aside-link fw-bold text-dark link" href="#">
+              <span class="material-icons align-middle me-3">
+                question_answer
+              </span>
+              Question
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link aside-link fw-bold text-dark link" href="#">
+              <span class="material-icons align-middle me-3">
+                assignment
+              </span>
+              Assignment
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link aside-link fw-bold text-dark link" href="#">
+              <span class="material-icons align-middle me-3">
+                video_library
+              </span>
+              Course
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link aside-link fw-bold text-dark link" href="#">
+              <span class="material-icons align-middle me-3">
+                supervisor_account
+              </span>
+              Admin
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link aside-link fw-bold text-dark link" href="#">
+              <span class="material-icons align-middle me-3">
+                settings
+              </span>
+              Settings
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex align-items-center mt-auto">
+        <img class="w-1 object-cover rounded-circle"
+          src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true"
+          alt="Andy Chen">
+        <div class="ms-3">
+          <p class="fw-bold">Andy Chen</p>
+          <p class="text-secondary">andy0401@mail.com</p>
+        </div>
+      </div>
+    </div>
+    
 <div class="container-fluid">
     <div class="main d-flex flex-column">
         <div class="d-flex flex-column mb-auto">
@@ -250,3 +334,18 @@ current: index
 
 
 </div>
+  </main>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
